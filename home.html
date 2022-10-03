@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css" class="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="font-effect-neon">Đọc Sách Nhanh</h1>
+        <p class="font-effect-neon">Sách hay mỗi ngày</p>
+    </div>
+    <div class="navbar">
+        <a href="#">Kinh Tế</a>
+        <a href="#">Lịch Sử</a>
+        <a href="#">Tâm Lý</a>
+        <a href="#">Văn Học</a>
+        <a href="#">Tâm Linh</a>
+        <a href="#">Khác</a>
+        <input type="text" class="search" placeholder="Tìm sách bạn muốn đọc ......">
+        <a href="#" class="right" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Yêu Cầu Sách</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>Sách Yêu Thích Nhất</h2>
+            <hr class="">
+            <div class="fakeimg1">
+                <img src="./sach.jpg" alt="Sách" style="height:100%;">
+            </div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>Từ Khóa</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <div class="fakeimg1">Image</div><br>
+        </div>
+        <div class="main">
+            <div class="pagination">
+                <h2 class="">Sách Hay Nhất</h2>
+                <a href="#">❮</a>
+                <a href="#">❯</a>
+            </div>
+            <hr class="">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="fakeimg">
+                        <img src="./sach.jpg" alt="Sách" class="mx-auto d-block">
+                    </div>
+                    <h3 class="">Tiếng chim hót trong bụi mận gai</h3>
+                    <p class="">Lượt xem: 100</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fakeimg">
+                        <img src="./sach.jpg" alt="Sách" class="mx-auto d-block">
+                    </div>
+                    <h3 class="">Tiếng chim hót trong bụi mận gai</h3>
+                    <p class="">Lượt xem: 100</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fakeimg">
+                        <img src="./sach.jpg" alt="Sách" class="mx-auto d-block">
+                    </div>
+                    <h3 class="">Tiếng chim hót trong bụi mận gai</h3>
+                    <p class="">Lượt xem: 100</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fakeimg">
+                        <img src="./sach.jpg" alt="Sách" class="mx-auto d-block">
+                    </div>
+                    <h3 class="">Tiếng chim hót trong bụi mận gai</h3>
+                    <p class="">Lượt xem: 100</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="fakeimg">
+                        <img src="./sach.jpg" alt="Sách" class="mx-auto d-block">
+                    </div>
+                    <h3 class="">Tiếng chim hót trong bụi mận gai</h3>
+                    <p class="">Lượt xem: 100</p>
+                </div>
+            </div>
+
+            <hr class="">
+            <h2>Sách Mới Nhất</h2>
+
+            <hr class="">
+
+            <h2>Sách Đọc Nhiều Nhất</h2>
+            <hr class="">
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Yêu cầu tên sách</h4>
+                    <p class="modal-title">Lần tiếp theo: Sau 12h</p>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    Tên Sách: <input type="text" class="" placeholder="Nhập tên sách ...">
+                    <textarea name="" id="" cols="48" rows="10" class="modal-body">
+                        Thêm mô tả chi tiết ...
+                    </textarea>
+                </div>
+                <!-- Modal Footer-->
+                <div class="modal-footer">
+                    <button class="btn btn-info" type="button" data-bs-dismiss="modal">Gửi đi</button>
+                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Đóng lại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
